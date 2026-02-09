@@ -6,6 +6,7 @@ Reproduce with ``python build.py`` in Linux-gcc-ld
 
 ## Logs
 
+```
 -- The CXX compiler identification is GNU 11.4.0
 -- Detecting CXX compiler ABI info
 -- Detecting CXX compiler ABI info - done
@@ -86,3 +87,4 @@ Traceback (most recent call last):
   File "/usr/lib/python3.10/subprocess.py", line 526, in run
     raise CalledProcessError(retcode, process.args,
 subprocess.CalledProcessError: Command 'cmake --build . --config Release' returned non-zero exit status 2.
+```
