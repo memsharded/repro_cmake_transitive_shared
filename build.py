@@ -2,7 +2,7 @@ import subprocess, os
 
 
 def run(cmd):
-    subprocess.run(cmd, check=True)
+    subprocess.run(cmd, check=True, text=True, shell=True)
 
 
 os.chdir("foobar")
